@@ -85,7 +85,7 @@ jobs:
       image: tensorflow/tensorflow:1.14.0-gpu-py3
       
       
-  4. Get pretrained car model
+  # 4. Get pretrained car model
 
   getPretrainedModelCars:
     resources:
@@ -104,7 +104,7 @@ jobs:
         - /outputs/pretrainedNetwork
       image: alpine:latest
       
-  5. Show generating images using pretrained car model
+  # 5. Show generating images using pretrained car model
 
   generateCarImagesPretrainedModel:
     resources:
